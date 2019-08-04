@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+#tudo{
+	width:1024px;
+	margin:0 auto;
+}
+#topo{
+	/*background:#09F;*/
+	background:url(Imagens/Topo.jpg);
+	width:1024px;
+	height:100px;
+}
+#menu{
+	background-image:url(Imagens/Menu.jpg);
+	width:355px;
+	height:500px;
+	float:left;
+}
+#conteudo{
+	background-image:url(Imagens/Conteudo.jpg);
+	width:669px;
+	height:500px;
+	float:left;
+}
+#rodape{
+	background:#999;
+	width:1024px;
+	height:50px;
+	clear:both;
+}
+#listamenu li{
+	list-style-type:none;/*tirando o marcador da lista*/
+	display:block; /*definindo a lista como bloco*/
+	padding:4px; /*aumentando a distância entre os blocos*/
+	margin-bottom:15px; /*separando os blocos um do outro*/
+	text-align:center;
+	font-weight:bold;
+	border:2px solid #FFF;
+	background:#FF4A15;
+	width:115px;
+	font-family:"Courier New", Courier, monospace;
+}
+#listamenu li a{
+	text-decoration:none; /*tirando o sublinhado do link */
+	color:#FFF;
+}
+#listamenu li a:hover{
+	color:#000;
+	display:#block;
+	font-style:italic;
+}
+.titulo{
+	color:#900;
+	padding: 15 px;/*distancia das margens */
+	font-size:36px;/*tamanho da fonte*/
+	line-height:35 px;/*distancia entre linhas */
+	text-indent: 15 px;/*paragrafo*/
+}
+
+.texto{
+	color:#003;
+	padding:15px;/*distancia das margens*/
+	font-size:24px;/*tamanho da fonte*/
+	text-indent:15px; /*paragrafo*/
+}
+p {
+	color:#FFF;
+	text-align:justify;
+	margin:25px;
+  }
+h1{
+	color:#000;
+	margin:25px;
+}
+h3{
+	padding:15px;
+}
