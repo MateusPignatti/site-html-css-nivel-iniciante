@@ -1,2 +1,2 @@
 # site-html-css-nivel-iniciante
-Site simples que desenvolvi a nível iniciante para aprender HTML e CSS no primeiro ano do ensino médio.
+Site simples que desenvolvi no primeiro ano do ensino médio para aprender HTML e CSS a nível iniciante.
